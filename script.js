@@ -102,7 +102,7 @@ const projectData = {
         title: "Restaurant Website",
         desc: "This project is a modern restaurant website concept designed to showcase menus, gallery images and table reservations.",
         icon: "fas fa-utensils",
-        Klikni na mě: "https://jakub-nutil.github.io/restaurace-u-zlateho-klasu/",
+        Klikni: "https://jakub-nutil.github.io/restaurace-u-zlateho-klasu/",
     
     },
     "2": {
@@ -167,3 +167,4 @@ scrollBtn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
 
 });
+
