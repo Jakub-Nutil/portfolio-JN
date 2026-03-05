@@ -508,13 +508,7 @@ body.dark-mode .skill-progress-wrapper { background: rgba(255, 255, 255, 0.05); 
     background: rgba(0, 0, 0, 0.8); backdrop-filter: blur(10px); z-index: 2000;
     align-items: center; justify-content: center; padding: 2rem;
 }
-.modal-content {
-width: 100%;
-max-width: 900px;
-position: relative;
-padding: 4rem;
-animation: modalScale 0.4s ease-out;
-}
+.modal-content { width: 100%; max-width: 900px; position: relative; padding: 4rem; animation: modalScale 0.4s ease-out; }
 @keyframes modalScale { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
 .close-modal { position: absolute; top: 20px; right: 30px; font-size: 2.5rem; cursor: pointer; }
 
@@ -608,6 +602,7 @@ display:none;
 z-index:999;
 }
 }
+
 
 
 
