@@ -166,9 +166,11 @@ const projectData = {
 
 };
 
+
 const modal = document.getElementById('modal');
 const closeModal = document.querySelector('.close-modal');
 const projectCards = document.querySelectorAll('.project-card');
+
 
 if(projectCards.length > 0){
 
@@ -200,6 +202,7 @@ if(projectCards.length > 0){
 
 }
 
+
 if(closeModal){
 
     closeModal.addEventListener('click', () => {
@@ -210,6 +213,7 @@ if(closeModal){
     });
 
 }
+
 
 window.addEventListener('click', (e) => {
 
