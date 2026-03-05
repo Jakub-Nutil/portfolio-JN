@@ -99,12 +99,12 @@ document.querySelectorAll('.observe').forEach(el => observer.observe(el));
  */
 const projectData = {
     "1": {
-        title: "Restaurant Website",
-        desc: "This project is a modern restaurant website concept designed to showcase menus, gallery images and table reservations.",
-        icon: "fas fa-utensils",
-        Klikni: "https://jakub-nutil.github.io/restaurace-u-zlateho-klasu/",
-    
-    },
+    title: "Restaurant Website",
+    desc: "This project is a modern restaurant website concept designed to showcase menus, gallery images and table reservations.",
+    icon: "fas fa-utensils",
+    github: "https://github.com/Jakub-Nutil/restaurace-u-zlateho-klasu",
+    demo: "https://jakub-nutil.github.io/restaurace-u-zlateho-klasu/"
+},
     "2": {
         title: "Personal Blog",
         desc: "This project is a clean and minimal blog layout designed for publishing articles and content.",
@@ -167,4 +167,5 @@ scrollBtn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
 
 });
+
 
