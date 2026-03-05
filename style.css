@@ -1,10 +1,11 @@
 :root {
+
     /* Base Color Palette */
     --primary: #f5b841;
     --primary-light: #ffcc66;
-    --secondary: #4f7cff;
-    --accent: #8b5cf6;
-    
+    --secondary: #f59e0b;
+    --accent: #ff8c00;
+
     /* Default Dark Mode Variables */
     --bg-color: #0a0a0a;
     --text-color: #f1f5f9;
@@ -13,7 +14,7 @@
     --card-border: rgba(255, 255, 255, 0.1);
     --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
     --glass-bg: rgba(255, 255, 255, 0.03);
-    
+
     --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     --radius: 16px;
 }
@@ -78,7 +79,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #0f172a;
+    background: var(--bg-color);
     z-index: 9999;
     display: flex;
     align-items: center;
@@ -602,6 +603,7 @@ display:none;
 z-index:999;
 }
 }
+
 
 
 
