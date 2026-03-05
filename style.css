@@ -512,7 +512,7 @@ body.dark-mode .skill-progress-wrapper { background: rgba(255, 255, 255, 0.05); 
 width: 100%;
 max-width: 900px;
 position: relative;
-padding: 4rem 5rem;
+padding: 4rem;
 animation: modalScale 0.4s ease-out;
 }
 @keyframes modalScale { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
@@ -608,6 +608,7 @@ display:none;
 z-index:999;
 }
 }
+
 
 
 
