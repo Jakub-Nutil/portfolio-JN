@@ -147,24 +147,21 @@ const projectData = {
         title: "Restaurant Website",
         desc: "This project is a modern restaurant website concept designed to showcase menus, gallery images and table reservations.",
         icon: "fas fa-utensils",
-        github: "https://jakub-nutil.github.io/restaurace-u-zlateho-klasu/",
-        
+        url: "https://jakub-nutil.github.io/restaurace-u-zlateho-klasu/"
     },
 
     "2": {
         title: "Personal Blog",
         desc: "This project is a clean and minimal blog layout designed for publishing articles and content.",
         icon: "fas fa-pen-nib",
-        github: "#",
-        
+        url: "#"
     },
 
     "3": {
         title: "Startup Landing Page",
         desc: "Modern landing page concept for a fictional tech startup.",
         icon: "fas fa-rocket",
-        github: "#",
-       
+        url: "#"
     }
 
 };
@@ -188,9 +185,12 @@ if(projectCards.length > 0){
             document.getElementById('modal-desc').innerText = data.desc;
             document.getElementById('modal-icon').innerHTML = `<i class="${data.icon}"></i>`;
 
-            const btns = document.querySelectorAll('.modal-btns a');
-                btns[0].href = data.github;
-            
+            const btn = document.querySelector('.modal-btns a');
+
+            if(btn){
+                btn.href = data.url;
+            }
+
             modal.style.display = 'flex';
             document.body.style.overflow = 'hidden';
 
@@ -247,5 +247,3 @@ if(scrollBtn){
     });
 
 }
-
-
