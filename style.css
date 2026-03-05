@@ -3,8 +3,8 @@
     /* Base Color Palette */
     --primary: #f5b841;
     --primary-light: #ffcc66;
-    --secondary: #f59e0b;
-    --accent: #ff8c00;
+    --secondary: #ff8c00;
+    --accent: #f59e0b;
 
     /* Default Dark Mode Variables */
     --bg-color: #0a0a0a;
@@ -603,6 +603,7 @@ display:none;
 z-index:999;
 }
 }
+
 
 
 
