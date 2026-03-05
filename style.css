@@ -1,7 +1,7 @@
 :root {
     /* Base Color Palette */
     --primary: #f5b841;
-    --primary-light: ##ffcc66;
+    --primary-light: #ffcc66;
     --secondary: #4f7cff;
     --accent: #8b5cf6;
     
@@ -602,5 +602,6 @@ display:none;
 z-index:999;
 }
 }
+
 
 
