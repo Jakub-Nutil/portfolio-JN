@@ -481,8 +481,8 @@ body.dark-mode .skill-progress-wrapper { background: rgba(255, 255, 255, 0.05); 
     border-color: var(--primary);
 }
 
-.project-img { height: 250px; background: var(--card-border); display: flex; align-items: center; justify-content: center; position: relative; }
-.project-content { padding: 2.5rem 3rem;}
+.project-img { height: 250px; background: var(--card-border); display: flex; align-items: center; justify-content: center; position: relative; padding-top:20px; }
+.project-content { padding: 4rem;}
 .project-tags span { font-size: 0.75rem; font-weight: 700; color: var(--primary); background: rgba(245,184,65, 0.1); padding: 0.3rem 0.8rem; border-radius: 20px; }
 
 /* Contact Card Special Styling */
@@ -602,6 +602,7 @@ display:none;
 z-index:999;
 }
 }
+
 
 
 
