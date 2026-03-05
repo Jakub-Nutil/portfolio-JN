@@ -147,8 +147,8 @@ const projectData = {
         title: "Restaurant Website",
         desc: "This project is a modern restaurant website concept designed to showcase menus, gallery images and table reservations.",
         icon: "fas fa-utensils",
-        github: "https://github.com/Jakub-Nutil/restaurace-u-zlateho-klasu",
-        demo: "https://jakub-nutil.github.io/restaurace-u-zlateho-klasu/"
+        github: "https://jakub-nutil.github.io/restaurace-u-zlateho-klasu/",
+        
     },
 
     "2": {
@@ -156,7 +156,7 @@ const projectData = {
         desc: "This project is a clean and minimal blog layout designed for publishing articles and content.",
         icon: "fas fa-pen-nib",
         github: "#",
-        demo: "#"
+        
     },
 
     "3": {
@@ -164,7 +164,7 @@ const projectData = {
         desc: "Modern landing page concept for a fictional tech startup.",
         icon: "fas fa-rocket",
         github: "#",
-        demo: "#"
+       
     }
 
 };
@@ -249,3 +249,4 @@ if(scrollBtn){
     });
 
 }
+
