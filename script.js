@@ -189,10 +189,8 @@ if(projectCards.length > 0){
             document.getElementById('modal-icon').innerHTML = `<i class="${data.icon}"></i>`;
 
             const btns = document.querySelectorAll('.modal-btns a');
-
-            if(btns[0]) btns[0].href = data.demo;
-            if(btns[1]) btns[1].href = data.github;
-
+                btns[0].href = data.github;
+            
             modal.style.display = 'flex';
             document.body.style.overflow = 'hidden';
 
@@ -249,4 +247,5 @@ if(scrollBtn){
     });
 
 }
+
 
