@@ -1,9 +1,9 @@
 :root {
     /* Base Color Palette */
-    --primary: #e0993b;
-    --primary-light: #adb885;
-    --secondary: #b1da52;
-    --accent: #593488;
+    --primary: #f5b841;
+    --primary-light: ##ffcc66;
+    --secondary: #4f7cff;
+    --accent: #8b5cf6;
     
     /* Default Dark Mode Variables */
     --bg-color: #09090a;
@@ -602,3 +602,4 @@ display:none;
 z-index:999;
 }
 }
+
