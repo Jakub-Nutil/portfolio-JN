@@ -1,301 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jakub Nutil | Frontend Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jakub Nutil | Frontend Developer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
+
 <body class="dark-mode">
-    <!-- Preloader -->
-    <div id="preloader">
-        <section class="dots-container">
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-        </section>
-    </div>
+
+<!-- PRELOADER -->
+<div id="preloader">
+<section class="dots-container">
+<div class="dot"></div>
+<div class="dot"></div>
+<div class="dot"></div>
+<div class="dot"></div>
+<div class="dot"></div>
+</section>
+</div>
 
 
-    <!-- Background Elements -->
-    <div class="bg-glow bg-glow-1"></div>
-    <div class="bg-glow bg-glow-2"></div>
+<!-- BACKGROUND -->
+<div class="bg-glow bg-glow-1"></div>
+<div class="bg-glow bg-glow-2"></div>
 
-    <header class="navbar-sticky">
-        <nav class="container">
-            <div class="logo">
-                <a href="#home">Jakub<span>Nutil</span></a>
-            </div>
-            
-            <ul class="nav-links">
-                <li><a href="#home" class="nav-item active">Home</a></li>
-                <li><a href="#about" class="nav-item">About</a></li>
-                <li><a href="#skills" class="nav-item">Skills</a></li>
-                <li><a href="#projects" class="nav-item">Projects</a></li>
-                <li><a href="#contact" class="nav-item">Contact</a></li>
-            </ul>
 
-            <div class="nav-actions">
-                <label class="theme-switch">
-                    <input type="checkbox" id="theme-checkbox">
-                    <div class="container-switch">
-                        <div class="circle-container">
-                            <div class="sun-moon-container">
-                                <div class="sun-moon">
-                                    <div class="dots"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-button"></div>
-                    </div>
-                </label>
-                <a href="#contact" class="btn btn-sm hide-mobile">Hire Me</a>
-                <div class="mobile-toggle">
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
-    </header>
+<header class="navbar-sticky">
 
-    <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero">
-            <div class="container hero-wrapper">
-                <div class="hero-content observe">
-                    <span class="badge">Student web developer</span>
-                    <h1><span class="text-gradient">Aspiring</span> Web Developer</h1>
-                    <p>Hi, I'm Jakub Nutil, a 16-year-old IT student interested in web development.
-                       I enjoy building modern and interactive websites using HTML, CSS and JavaScript.</p>
-                    <div class="hero-btns">
-                        <a href="#projects" class="btn">View Projects <i class="fas fa-arrow-right"></i></a>
-                        <a href="#about" class="btn">Learn More</a>
-                    </div>
-                </div>
-                <div class="hero-visual observe">
-                    <div class="glass-sphere">
-                        <div class="inner-sphere">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <div class="orbit"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="scroll-down">
-                <div class="mouse"></div>
-            </div>
-        </section>
+<nav class="container">
 
-        <!-- About Section -->
-        <section id="about" class="about section-padding">
-            <div class="container">
-                <div class="section-title observe">
-                    <span class="subtitle"></span>
-                    <h2>About Me</h2>
-                </div>
-                <div class="about-grid glass-card observe">
-                    <div class="about-info">
-                                <p>
-                                    I am an IT student at <strong>Střední odborná škola automobilní, informatiky a Gymnázium</strong>.
-                                    My interest in web development started from curiosity about how websites work, and it quickly
-                                    became something I really enjoy learning and improving.
-                                </p>
+<div class="logo">
+<a href="#home">Jakub<span>Nutil</span></a>
+</div>
 
-                                <p>
-                                    I focus on writing clean code, creating responsive layouts and building simple,
-                                    modern user interfaces. Each project I create helps me improve my frontend
-                                    development skills.
-                                </p>
-                    </div>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <h3>16</h3>
-                            <span>Years Old</span>
-                        </div>
-                        <div class="stat">
-                            <h3>IT</h3>
-                            <span>Student</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<ul class="nav-links">
 
-        <!-- Skills Section -->
-        <section id="skills" class="skills section-padding">
-            <div class="container">
-                <div class="section-title observe">
-                    <span class="subtitle">Tech Stack</span>
-                    <h2>My Expertise</h2>
-                </div>
-                <div class="skills-grid">
-                    <!-- HTML5 -->
-                    <div class="skill-card observe" data-percent="80">
-                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
-                        <h3>HTML5</h3>
-                        <p>Structure & SEO</p>
-                        <div class="skill-progress-wrapper">
-                            <div class="skill-progress-bar" style="--target-width: 80%"></div>
-                        </div>
-                    </div>
-                    <!-- CSS3 -->
-                    <div class="skill-card observe" data-percent="75">
-                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
-                        <h3>CSS3</h3>
-                        <p>Layouts & Design</p>
-                        <div class="skill-progress-wrapper">
-                            <div class="skill-progress-bar" style="--target-width: 75%"></div>
-                        </div>
-                    </div>
-                    <!-- JavaScript -->
-                    <div class="skill-card observe" data-percent="35">
-                        <div class="skill-icon"><i class="fab fa-js"></i></div>
-                        <h3>JavaScript</h3>
-                        <p>Logic & Interactivity</p>
-                        <div class="skill-progress-wrapper">
-                            <div class="skill-progress-bar" style="--target-width: 35%"></div>
-                        </div>
-                    </div>
-                    <!-- Responsive -->
-                    <div class="skill-card observe" data-percent="75">
-                        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
-                        <h3>Responsive</h3>
-                        <p>Cross-device UI</p>
-                        <div class="skill-progress-wrapper">
-                            <div class="skill-progress-bar" style="--target-width: 75%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<li><a href="#home" class="nav-item active">Home</a></li>
+<li><a href="#about" class="nav-item">About</a></li>
+<li><a href="#skills" class="nav-item">Skills</a></li>
+<li><a href="#projects" class="nav-item">Projects</a></li>
+<li><a href="#contact" class="nav-item">Contact</a></li>
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects section-padding">
-            <div class="container">
-                <div class="section-title observe">
-                    <span class="subtitle">Portfolio</span>
-                    <h2>Projects</h2>
-                    <h4>These projects are concept websites created while learning web development.</h4>
-                </div>
-                <div class="projects-grid">
-                    <!-- Project 1 -->
-                    <div class="project-card observe" data-id="1">
-                        <div class="project-img">
-                            <div class="placeholder-overlay">
-                                <i class="fas fa-external-link-alt"></i>
-                            </div>
-                            
-                        </div>
-                        <div class="project-content">
-                            <h3>Restaurant Website</h3>
-                            <p>A modern restaurant website featuring menu sections, gallery and table reservations.</p>
-                            <div class="project-tags">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>Responsive</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 2 -->
-                    <div class="project-card observe" data-id="2">
-                        <div class="project-img">
-                            <div class="placeholder-overlay">
-                                <i class="fas fa-external-link-alt"></i>
-                            </div>
-                            
-                        </div>
-                        <div class="project-content">
-                            <h3>Personal Blog</h3>
-                            <p>A clean blog layout designed for publishing articles with a simple and responsive interface.</p>
-                            <div class="project-tags">
-                                <span>JavaScript</span>
-                                <span>Responsive</span>
-                                <span>Layout</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project 3 -->
-                    <div class="project-card observe" data-id="3">
-                        <div class="project-img">
-                            <div class="placeholder-overlay">
-                                <i class="fas fa-external-link-alt"></i>
-                            </div>
-                            
-                        </div>
-                        <div class="project-content">
-                            <h3>Startup Landing Page</h3>
-                            <p>A modern landing page concept for a fictional tech startup with a clean and responsive design.</p>
-                            <div class="project-tags">
-                                <span>CSS Grid</span>
-                                <span>Animations</span>
-                                <span>UI/UX</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+</ul>
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact section-padding">
-            <div class="container">
-                <div class="contact-card glass-card observe">
-                    <div class="section-title">
-                        <span class="subtitle">Connect</span>
-                        <h3>Feel free to contact me if you'd like to collaborate or see my work.</h3>
-                    </div>
-                    
-                    <div class="contact-links">
-                        <a href="mailto:nutiljkb@gmail.com" class="btn">
-                            <i class="fas fa-envelope"></i> <span>Email Me</span>
-                        </a>
-                        <a href="https://github.com/Jakub-Nutil?tab=repositories" target="_blank" class="btn">
-                            <i class="fab fa-github"></i> <span>GitHub</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy;2026 Jakub Nutil. Designed and developed by me.</p>
-        </div>
-    </footer>
+<div class="nav-actions">
 
-    <!-- Project Modal -->
-    <div id="modal" class="modal">
-        <div class="modal-content glass-card">
-            <span class="close-modal">&times;</span>
-            <div class="modal-body">
-                <div class="modal-visual">
-                    <div class="placeholder-icon" id="modal-icon"></div>
-                </div>
-                <div class="modal-text">
-                    <h2 id="modal-title">Project Title</h2>
-                    <p id="modal-desc">Description goes here.</p>
-                    <div class="modal-btns">
-                        <a href="#" class="btn btn-sm">GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<label class="theme-switch">
 
-    <button id="scrollTop">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+<input type="checkbox" id="theme-checkbox">
 
-    <script src="script.js"></script>
+<div class="container-switch">
+
+<div class="circle-container">
+
+<div class="sun-moon-container">
+
+<div class="sun-moon">
+<div class="dots"></div>
+</div>
+
+</div>
+</div>
+
+<div class="main-button"></div>
+
+</div>
+
+</label>
+
+<a href="#contact" class="btn btn-sm hide-mobile">Hire Me</a>
+
+<div class="mobile-toggle">
+<span></span>
+<span></span>
+</div>
+
+</div>
+
+</nav>
+</header>
+
+
+
+<main>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+<div class="container hero-wrapper">
+
+<div class="hero-content observe">
+
+<span class="badge">Student web developer</span>
+
+<h1><span class="text-gradient">Aspiring</span> Web Developer</h1>
+
+<p>
+Hi, I'm Jakub Nutil, a 16-year-old IT student interested in web development.
+I enjoy building modern and interactive websites using HTML, CSS and JavaScript.
+</p>
+
+<div class="hero-btns">
+
+<a href="#projects" class="btn">
+View Projects <i class="fas fa-arrow-right"></i>
+</a>
+
+<a href="#about" class="btn">
+Learn More
+</a>
+
+</div>
+</div>
+
+
+<div class="hero-visual observe">
+
+<div class="glass-sphere">
+
+<div class="inner-sphere">
+<i class="fas fa-code"></i>
+</div>
+
+<div class="orbit"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="scroll-down">
+<div class="mouse"></div>
+</div>
+
+</section>
+
+
+
+<!-- ABOUT -->
+
+<section id="about" class="about section-padding">
+
+<div class="container">
+
+<div class="section-title observe">
+<h2>About Me</h2>
+</div>
+
+<div class="about-grid glass-card observe">
+
+<div class="about-info">
+
+<p>
+I am an IT student at
+<strong>Střední odborná škola automobilní, informatiky a Gymnázium</strong>.
+My interest in web development started from curiosity about how websites work,
+and it quickly became something I really enjoy learning and improving.
+</p>
+
+<p>
+I focus on writing clean code, creating responsive layouts and building simple,
+modern user interfaces.
+</p>
+
+</div>
+
+<div class="about-stats">
+
+<div class="stat">
+<h3>16</h3>
+<span>Years Old</span>
+</div>
+
+<div class="stat">
+<h3>IT</h3>
+<span>Student</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+
+<!-- SKILLS -->
+
+<section id="skills" class="skills section-padding">
+
+<div class="container">
+
+<div class="section-title observe">
+
+<span class="subtitle">Tech Stack</span>
+<h2>My Expertise</h2>
+
+</div>
+
+
+<div class="skills-grid">
+
+<div class="skill-card observe">
+
+<div class="skill-icon">
+<i class="fab fa-html5"></i>
+</div>
+
+<h3>HTML5</h3>
+<p>Structure & SEO</p>
+
+</div>
+
+
+<div class="skill-card observe">
+
+<div class="skill-icon">
+<i class="fab fa-css3-alt"></i>
+</div>
+
+<h3>CSS3</h3>
+<p>Layouts & Design</p>
+
+</div>
+
+
+<div class="skill-card observe">
+
+<div class="skill-icon">
+<i class="fab fa-js"></i>
+</div>
+
+<h3>JavaScript</h3>
+<p>Logic & Interactivity</p>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="projects section-padding">
+
+<div class="container">
+
+<div class="section-title observe">
+
+<span class="subtitle">Portfolio</span>
+<h2>Projects</h2>
+
+<h4>These projects are concept websites created while learning web development.</h4>
+
+</div>
+
+
+<div class="projects-grid">
+
+<div class="project-card observe" data-id="1">
+
+<div class="project-img">
+<div class="placeholder-overlay">
+<i class="fas fa-external-link-alt"></i>
+</div>
+</div>
+
+<div class="project-content">
+
+<h3>Restaurant Website</h3>
+
+<p>
+A modern restaurant website featuring menu sections,
+gallery and table reservations.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact section-padding">
+
+<div class="container">
+
+<div class="contact-card glass-card observe">
+
+<div class="section-title">
+<h3>Feel free to contact me if you'd like to collaborate.</h3>
+</div>
+
+<div class="contact-links">
+
+<a href="mailto:nutiljkb@gmail.com" class="btn">
+<i class="fas fa-envelope"></i> Email Me
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+
+<footer>
+
+<div class="container">
+<p>&copy;2026 Jakub Nutil. Designed and developed by me.</p>
+</div>
+
+</footer>
+
+
+
+<!-- PROJECT MODAL -->
+
+<div id="modal" class="modal">
+
+<div class="modal-content glass-card">
+
+<span class="close-modal">&times;</span>
+
+<div class="modal-body">
+
+<div class="modal-visual">
+<div class="placeholder-icon" id="modal-icon"></div>
+</div>
+
+<div class="modal-text">
+
+<h2 id="modal-title">Project Title</h2>
+
+<p id="modal-desc">Description goes here.</p>
+
+
+<div class="modal-btns">
+
+<a href="#" class="btn btn-sm" target="_blank">
+Visit Website
+<i class="fas fa-arrow-up-right-from-square"></i>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<button id="scrollTop">
+<i class="fas fa-arrow-up"></i>
+</button>
+
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
-
